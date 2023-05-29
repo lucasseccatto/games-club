@@ -1,0 +1,95 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252B42;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 30px;
+}
+
+input {
+    padding: 10px;
+    display: block;
+    width: 352px;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    padding: 10px;
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 352px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #FFFFFF;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+button {
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 174px;
+    height: 52px;
+    background: #40BB15;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.voltar {
+    background: grey;
+}
+
+.contato {
+    margin: 20px 45%;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+div {
+    transition: opacity 1s;
+}
+
